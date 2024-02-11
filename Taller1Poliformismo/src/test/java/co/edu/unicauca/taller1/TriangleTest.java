@@ -13,11 +13,11 @@ public class TriangleTest {
     @Test
     void testCalculateArea() {
         Triangle triangle = new Triangle(4.0, 3.0);
-        assertEquals(6.0, triangle.calculateArea());
+        assertEquals(4.0*3.0*0.5, triangle.calculateArea());
     }
     @Test
     void testCalculatePerimeter(){
         Triangle triangle = new Triangle(4.0,3.0);
-        assertEquals(12,triangle.calculatePerimeter());
+        assertEquals(4*3,triangle.calculatePerimeter());
     }
 }

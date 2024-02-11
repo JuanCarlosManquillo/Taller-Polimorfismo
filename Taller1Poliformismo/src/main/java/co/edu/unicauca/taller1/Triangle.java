@@ -24,6 +24,6 @@ public class Triangle extends Figure {
 
     @Override
     public double calculatePerimeter() {
-       return base+base+base;
+       return base*3;
     }
 }
